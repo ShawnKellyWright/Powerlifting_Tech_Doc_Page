@@ -18,13 +18,21 @@ html, body {
     font-size: xx-large;
 }
 
+.ipfLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* following is practice custom weightlifting font for t's only in Main Header tag - controlled by a span class of .tHeadFont */
 /* .tHeadFont {
     font-family: mySecondFont, Arial, Helvetica, sans-serif;
 } */
 
 .firstHeader {
-    background-image: linear-gradient(60deg,red, gray, blue, blue, blue);
+    /* background-image: linear-gradient(60deg,red, gray, #07419e, #07419e, #07419e, #07419e); */
+    background-image: linear-gradient(60deg, #e41013 15%,gray 30%, #00225a 10%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -40,4 +48,12 @@ html, body {
     height: 100%;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
+  }
+
+  span.tab {
+    margin-left: 50px;
+  }
+
+  span.tab2 {
+    margin-left: 75px;
   }
