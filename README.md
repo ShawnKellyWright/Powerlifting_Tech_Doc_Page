@@ -1,6 +1,6 @@
 This is my third project on freeCodeCamp.org under Responsive Web Design.
 It is a Technical Documentation Page, which I chose Powerlifting as my subject. 
-The following is the parametors that had to be met:
+The following is the parameters that had to be met:
 
 Build a Technical Documentation Page
 Objective: Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
