@@ -25,6 +25,24 @@ html, body {
     width: 50%;
 }
 
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+
 /* following is practice custom weightlifting font for t's only in Main Header tag - controlled by a span class of .tHeadFont */
 /* .tHeadFont {
     font-family: mySecondFont, Arial, Helvetica, sans-serif;
@@ -50,7 +68,7 @@ html, body {
     border-color: rgba(0, 22, 22, 0.4);
   }
 
-  span.tab {
+  code.tab {
     margin-left: 50px;
   }
 
