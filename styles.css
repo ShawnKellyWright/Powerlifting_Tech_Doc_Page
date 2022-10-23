@@ -15,7 +15,7 @@ html, body {
     background-color: beige;
     color: #4d4e53;
     font-family: Arial, sans-serif;
-    font-size: xx-large;
+    font-size: large;
 }
 
 .ipfLogo {
@@ -43,6 +43,9 @@ html, body {
     margin-bottom: 110px;
   }
 
+  header {
+    font-size: x-large;
+  }
 /* following is practice custom weightlifting font for t's only in Main Header tag - controlled by a span class of .tHeadFont */
 /* .tHeadFont {
     font-family: mySecondFont, Arial, Helvetica, sans-serif;
@@ -68,10 +71,33 @@ html, body {
     border-color: rgba(0, 22, 22, 0.4);
   }
 
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
   code.tab {
     margin-left: 50px;
   }
 
   span.tab2 {
-    margin-left: 75px;
+    margin-left: 40px;
   }
