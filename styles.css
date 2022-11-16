@@ -4,18 +4,7 @@
   padding: 0;
 }
 
-/* following is possible font choice for main header of Doc. */
-@font-face {
-  font-family: myFirstFont;
-  src: url(Hokjesgeest-PDGB.ttf);
-}
-
-/* following is 2nd possible font choice for main header of Doc. */
-@font-face {
-  font-family: mySecondFont;
-  src: url(AlphaSports.ttf);
-}
-
+/*  */
 html,
 body {
   min-width: 290px;
@@ -26,26 +15,20 @@ body {
 }
 
 /* following is the main logo styling */
+/* .logo-left-div,
+logo-right-div {
+  float: left;
+  max-width: 3em;
+} */
+
 .ipf-logo {
   display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
-  margin: 30px 0px 50px 0px;
+  margin: 30px 0px 30px 0px;
+  /* min-width: 60em; */
 }
-
-ipf-logo>img {
-  /* max-width: 100%; */
-  width: 100%;
-  height: auto;
-  /* margin-left: 150px; */
-}
-
-/* @media only screen and (max-width: 1100px) {
-  .ipf-logo {
-    margin-left: 100px;
-  }
-} */
 
 @media only screen and (max-width: 1000px) {
   .ipf-logo {
@@ -53,6 +36,12 @@ ipf-logo>img {
   }
 
   /* .ipf-logo {
+    display: flex;
+    justify-content: flex-end; */
+  /* padding-left: 50%; */
+}
+
+/* .ipf-logo {
     display: flex;
     justify-content: center;
   }
@@ -117,16 +106,12 @@ ipf-logo>img {
   flex-wrap: wrap;
 }
 
-/* #main-doc {
-    position: absolute;
-    margin-left: 310px;
-    padding: 20px;
-    margin-bottom: 110px;
-  }
-
-  header {
-    font-size: x-large;
-  } */
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
 
 header {
   color: black;
@@ -175,7 +160,7 @@ header {
 #main-doc {
   position: absolute;
   margin-left: 250px;
-  /* padding: 20px; */
+  padding: 20px;
   margin-bottom: 110px;
   display: flex;
   flex-wrap: wrap;
