@@ -11,106 +11,106 @@ body {
   background-color: beige;
   color: #4d4e53;
   font-family: 'Open Sans', Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1;
 }
 
-/* following is the main logo styling */
-/* .logo-left-div,
-logo-right-div {
-  float: left;
-  max-width: 3em;
-} */
+.main-wrapper {
+  display: flex;
+  height: 100%;
+}
 
 .ipf-logo {
   display: flex;
-  justify-content: center;
+  justify-content: ;
   width: 100%;
   height: auto;
-  margin: 30px 0px 30px 0px;
+  margin: 30px 0px 30px 310px;
   /* min-width: 60em; */
 }
 
-@media only screen and (max-width: 1000px) {
-  .ipf-logo {
-    display: none;
-  }
-
-  /* .ipf-logo {
-    display: flex;
-    justify-content: flex-end; */
-  /* padding-left: 50%; */
+.firstHeader {
+  background-image: linear-gradient(60deg, #e41013 15%, gray 30%, #00225a 10%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
-/* .ipf-logo {
-    display: flex;
-    justify-content: center;
-  }
-
-  ipf-logo>img {
-    width: 100% !important;
-    height: auto !important;
-    float: left !important;
-  } */
-}
-
-@media only screen and (max-width: 950px) {
-  /* #navbar {
-    position: fixed;
-    min-width: 150px !important;
-    top: 0px;
-    left: 0px;
-    width: 150px !important;
-    height: 100%;
-    border-right: solid;
-    border-color: rgba(0, 22, 22, 0.4);
-  }
-
-  .firstHeader {
-    font-size: .8em;
-    margin: 10px;
-    padding: ;
-    max-width: 150px;
-    /* margin: 10px 0px 10px 5px !important;
-    padding: 0px !important;
-    max-width: 150px !important; 
-  } */
-
-  /* .nav-link {
-    font-size: .8em;
-    /* max-width: 150px !important; */
-  /* padding-left: 10px !important;
-    width: 100px;
-  } */
-
-  /* #main-doc {
-    position: absolute;
-    /* margin-left: 180px !important; */
-  /* padding: 20px; */
-  /*margin-bottom: 110px;
-    display: flex;
-    flex-wrap: wrap;
-  } */
-}
-
-#navbar {
+#navbar,
+header ul {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  text-align: center;
   position: fixed;
-  min-width: 220px;
-  top: 0px;
-  left: 0px;
-  width: 220px;
   height: 100%;
-  border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  overflow: hidden;
+  border-right: solid 2px rgba(0, 22, 22, 0.4);
+  */
 }
+
+#navbar ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  text-align: center;
+  /*background-color: pink;*/
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-right: solid 2px rgba(0, 22, 22, 0.4);
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  /* padding: 10px; */
+}
+
+/* #navbar a {
+  padding: 10px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 2;
+} */
+
+#navbar a {
+  padding: 10px 20px 10px 20px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 2;
+}
+
+#navbar li:hover {
+  background-color: #555;
+}
+
+#navbar a:hover {
+  color: white;
+}
+
 
 #main-doc {
-  position: absolute;
+  text-align: left;
+  white-space: pre-line;
+  /* position: relative; */
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  padding: 15px;
+  margin: 10px;
   margin-left: 310px;
-  padding: 20px;
-  margin-bottom: 110px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+main {
+  overflow-y: auto;
 }
 
 header {
@@ -124,46 +124,6 @@ header {
 #main-doc header {
   text-align: left;
   margin: 0px;
-}
-
-.firstHeader {
-  background-image: linear-gradient(60deg, #e41013 15%, gray 30%, #00225a 10%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-
-#navbar ul {
-  height: 88%;
-  padding: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-#navbar li {
-  color: #4d4e53;
-  border-top: 1px solid;
-  list-style: none;
-  position: relative;
-  width: 100%;
-}
-
-#navbar a {
-  display: block;
-  padding: 10px 30px;
-  color: #4d4e53;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#main-doc {
-  position: absolute;
-  margin-left: 250px;
-  padding: 20px;
-  margin-bottom: 110px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 section article {
@@ -181,24 +141,13 @@ span.tab2 {
 }
 
 /* following is 1st image of Guidelines of Knurling distances - Under Equip. & Specifications */
-.knurling-div {
+.lifting-images {
   display: flex;
   justify-content: flex-start;
   margin-top: 25px;
   margin-bottom: 25px;
   padding: 0;
 }
-
-/* .knurling-div > img {
- display: flex; 
-  justify-content: flex-end;
-} */
-
-/* @media screen only and (max-width: 900px) {
-  .knurling-div {
-    max-width: 200px;
-  }
-} */
 
 /* #knurling {
   display: block;
@@ -212,6 +161,8 @@ span.tab2 {
   width: 100%;
   /* max-width: 300px; */
   border-collapse: collapse;
+
+
 }
 
 .flex-table-header {
@@ -232,10 +183,74 @@ th {
 
 .flex-row,
 .flex-cell {
-  text-align: center;
+  /* text-align: center; */
+
 }
 
 .red-strike,
 .red-span {
   color: red;
+}
+
+*/
+
+/* the following is styling changes for mobile devices */
+@media only screen and (max-width: 1000px) {
+  .ipf-logo {
+    display: none;
+  }
+
+  /* .ipf-logo {
+    display: flex;
+    justify-content: flex-end; */
+  /* padding-left: 50%; 
+  }*/
+
+  /* .ipf-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  ipf-logo>img {
+    width: 100% !important;
+    height: auto !important;
+    float: left !important;
+  } */
+}
+
+@media only screen and (max-width: 950px) {
+  #navbar {
+    /* position: fixed !important;
+    min-width: 290px !important;
+    top: 0px;
+    left: 0px;
+    width: 100% !important;
+    font-size: .8em;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4); */
+  }
+
+  .firstHeader {
+    font-size: 1em;
+    margin: 10px;
+    padding: 0;
+    max-width: 300px;
+    /* margin: 10px 0px 10px 5px !important; */
+    /* padding: 0px !important; */
+    max-width: 150px !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #nav-bar {
+    position: fixed;
+    border: 1px solid rgba(0, 22, 22, 0.4);
+    flex: 1 0 5%;
+  }
+
+  .ipf-logo {
+    display: none;
+  }
 }
