@@ -107,9 +107,7 @@ header ul {
   color: white;
 }
 
-
-
-
+/* following is main-doc section styling */
 #main-doc {
   text-align: left;
   /* position: relative;
@@ -164,20 +162,21 @@ span.tab2 {
   padding: 0;
 }
 
-/* #knurling {
-  display: block;
-  margin: 50px auto 50px 115px;
-  width: 80%;
-} */
+#knurling {
+  width: 95%;
+  max-width: 400px;
+}
+
+#three-lifts {
+  width: 95%;
+  max-width: 400px;
+}
 
 /* following is styling of 1st table of the 3 major lifts: Squat, Bench press, and Deadlift */
 .table-container {
-  margin: .5em auto;
-  width: 100%;
-  /* max-width: 300px; */
+  margin: .5em auto; 
+  width: 50%;
   border-collapse: collapse;
-
-
 }
 
 .flex-table-header {
@@ -207,30 +206,11 @@ th {
   color: red;
 }
 
-*/
-
 /* the following is styling changes for mobile devices */
 @media only screen and (max-width: 1000px) {
   .ipf-logo {
     display: none;
   }
-
-  /* .ipf-logo {
-    display: flex;
-    justify-content: flex-end; */
-  /* padding-left: 50%; 
-  }*/
-
-  /* .ipf-logo {
-    display: flex;
-    justify-content: center;
-  }
-
-  ipf-logo>img {
-    width: 100% !important;
-    height: auto !important;
-    float: left !important;
-  } */
 }
 
 @media only screen and (max-width: 840px) {
