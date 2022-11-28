@@ -1,5 +1,8 @@
 This is my third project on freeCodeCamp.org under Responsive Web Design.
 It is a Technical Documentation Page, which I chose Powerlifting as my subject. 
+
+To view my project click here => https://shawnkellywright.github.io/Powerlifting_Tech_Doc_Page/
+
 The following is the parameters that had to be met:
 
 Build a Technical Documentation Page
