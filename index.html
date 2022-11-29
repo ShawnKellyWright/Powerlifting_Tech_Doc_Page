@@ -24,15 +24,16 @@
     <div class="main-wrapper">
         <!-- the following is the main navbar, which starts on left side of screen and in mobile goes to top -->
         <nav id="navbar">
+            <p class="home-btn"><a href="#">Home</a></p>
             <header class="firstHeader">IPF International
                 Powerlifting Federation
                 Technical Documentation
             </header>
             <ul>
-                <li><a class="nav-link" href="#GENERAL_RULES_OF_POWERLIFTING">RULES</a></li>
+                <li><a class="nav-link" href="#">HOME</a></li>
                 <li><a class="nav-link" href="#EQUIPMENT_AND_SPECIFICATIONS">EQUIP.</a></li>
                 <li><a class="nav-link" href="#PERSONAL_EQUIPMENT">PERSONAL</a></li>
-                <li><a class="nav-link" href="#POWERLIFTS_AND_RULES_OF_PERFORMANCE">POWERLIFTS</a></li>
+                <li><a class="nav-link" href="#POWERLIFTS_AND_RULES_OF_PERFORMANCE">POWERLIFT</a></li>
                 <li><a class="nav-link" href="#WEIGHING_IN">WEIGHING</a></li>
                 <li><a class="nav-link" href="#ORDER_OF_COMPETITION">ORDER</a></li>
                 <!-- <li><a class="nav-link" href="#REFEREES">REFEREES</a></li> -->
@@ -730,12 +731,14 @@
                         <img id="three-lifts" src="images/three_lifts_image_examples.png"
                             alt="Images of example of the three lifts, squat, bench press, deadlift.">
                     </div>
-                    <table class="table-container" width="" role="table" aria-label="three_major_lifts">
+
+                    <!-- following is the 1st table for the 3 major lifts -->
+                    <table class="table-container" role="table" aria-label="three_major_lifts">
                         <thead>
                             <tr class="flex-table-header" role="rowgroup">
                                 <th class="flex-row first" role="columnheader"><strong>SQUAT</strong></th>
-                                <th class="flex-row" role="columnheader">BENCH PRESS</th>
-                                <th class="flex-row" role="columnheader">DEADLIFT</th>
+                                <th class="flex-row second" role="columnheader">BENCH PRESS</th>
+                                <th class="flex-row third" role="columnheader">DEADLIFT</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -746,14 +749,14 @@
                                     the top surface of the legs
                                     at the hip joint is lower
                                     than the top of the knees.</td>
-                                <td class="flex-row" role="cell">1. (red)
+                                <td class="flex-row second" role="cell">1. (red)
                                     Bar is not lowered to
                                     chest or abdominal area
                                     i.e. not reaching the chest
                                     or abdominal area, or is
                                     touching the belt.
                                 </td>
-                                <td class="flex-row" role="cell">1. (red)
+                                <td class="flex-row third" role="cell">1. (red)
                                     Failure to lock the knees
                                     straight at the completion of
                                     the lift.
@@ -773,7 +776,7 @@
                                     at the bottom of the lift or
                                     any downward movement
                                     during the ascent.</td>
-                                <td class="flex-row" role="cell">2. (blue)
+                                <td class="flex-row second" role="cell">2. (blue)
                                     Any downward movement
                                     of the whole of the bar in
                                     the course of being
@@ -783,7 +786,7 @@
                                     elbows locked at the
                                     completion of the lift.
                                 </td>
-                                <td class="flex-row" role="cell">2. (blue)
+                                <td class="flex-row third" role="cell">2. (blue)
                                     Any downward movement
                                     of the bar before it reaches
                                     the final position. If the bar
@@ -832,7 +835,7 @@
                                     the lift, which precedes
                                     this list of disqualification.
                                     Incomplete lift</td>
-                                <td class="flex-row" role="cell">3. (yellow)
+                                <td class="flex-row second" role="cell">3. (yellow)
                                     Heaving, or sinking
                                     the bar after it has
                                     been motionless on the
@@ -873,7 +876,7 @@
                                     the lift, which precedes
                                     this list of disqualification.
                                     Incomplete lift</td>
-                                <td class="flex-row" role="cell">3. (yellow)
+                                <td class="flex-row third" role="cell">3. (yellow)
                                     Lowering the bar before
                                     receiving the Chief Referees
                                     signal.
@@ -901,6 +904,7 @@
                             </tr>
                         </tbody>
                     </table>
+
                     <p><strong>Scoreboard</strong><br>
                         A proper detailed scoreboard visual to the spectators, officials, and all concerned with the
                         progress of
