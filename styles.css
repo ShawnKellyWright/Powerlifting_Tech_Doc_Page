@@ -379,9 +379,9 @@ th {
 }
 
 @media only screen and (max-height: 400px) {
-  /* html {
-      scroll-padding-top: 0;
-  } */
+  html {
+    scroll-padding-top: 4em;
+  }
 
   #main-doc {
     margin: 50px 8px 30px 8px;
