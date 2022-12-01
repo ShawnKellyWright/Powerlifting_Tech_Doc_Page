@@ -19,21 +19,12 @@ html {
   scroll-padding-top: 8.5rem;
 }
 
-.main-wrapper {
-  /* display: flex;
-  height: 100%; */
-}
-
 .ipf-logo {
   display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
   margin: 30px 0 30px 0;
-}
-
-.home-btn {
-  display: none;
 }
 
 .firstHeader {
@@ -79,13 +70,23 @@ header ul {
   border-left: solid 1px white;
 }
 
+#navbar ul li:nth-child(1) {
+  /* background-color: #e41013; */
+  background-image: linear-gradient(45deg, #e41013 0%, #e41013 25%, #33265f 80%, #33265f 100%);
+  border: 1px solid #e41013;
+}
+
+#navbar a:nth-child() {
+  color: #e41013;
+}
+
 #navbar ul li:nth-child(6) {
   border-bottom: solid 2px rgba(0, 22, 22, 0.4);
 }
 
 #navbar a {
   padding: 16px;
-  color: white;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
   display: block;
@@ -163,10 +164,10 @@ span.tab2 {
   padding: 0;
 }
 
-#knurling {
+/* #knurling {
   width: 95%;
   max-width: 400px;
-}
+} */
 
 #three-lifts {
   width: 95%;
@@ -207,11 +208,14 @@ th {
   color: red;
 }
 
+/* following is styling for 2nd table on site. Table consistis of referees signals for the required 3 lifts. */
+.table-container-2 {
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
 /* the following is styling changes for mobile devices */
 @media only screen and (max-width: 1000px) {
-  /* .ipf-logo {
-    display: none;
-  } */
 
   .ipf-logo {
     display: flex;
@@ -236,7 +240,6 @@ th {
 
 @media only screen and (max-width: 778px) {
 
-
   #navbar {
     border: 0;
   }
@@ -259,7 +262,6 @@ th {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* gap: 2px; */
   }
 
   #navbar ul li {
@@ -318,6 +320,12 @@ th {
   }
 }
 
+@media only screen and (max-width: 778px) {
+  #knurling {
+    width: 300px;
+  }
+}
+
 @media only screen and (max-width: 430px) {
 
   .ipf-logo {
@@ -327,6 +335,11 @@ th {
   .main-logo {
     max-width: 280px;
     text-align: center;
+  }
+
+  /* following changes width of images while mobile 430px or less */
+  #knurling img {
+    width: 300px;
   }
 
   /* following changes navbar font-size in mobile 430px or smaller */
@@ -428,20 +441,5 @@ th {
 
   .firstHeader {
     display: none;
-    /* display: flex;
-      margin-left: 30px;
-      white-space: nowrap;
-      margin-top: -50px; */
-  }
-
-  /* following displays .home-btn when in mobile */
-  .home-btn {
-    /* display: flex !important;
-    margin-top: -50px; */
-    display: none;
-  }
-
-  .home-btn a {
-    background-color: #33265f;
   }
 }
