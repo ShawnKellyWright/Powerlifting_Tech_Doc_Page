@@ -1,10 +1,10 @@
-/* following is global removal of pre-defined set margin  or padding */
+/* following is global removal of pre-defined set margin or padding */
 * {
   margin: 0;
   padding: 0;
 }
 
-/*  */
+/* following is the main page styling - e.g. background-color */
 html,
 body {
   min-width: 290px;
@@ -15,6 +15,7 @@ body {
   margin: 0;
 }
 
+/* following sets space when linking to header from navbar, so as to not cover header */
 html {
   scroll-padding-top: 8.5rem;
 }
@@ -27,6 +28,7 @@ html {
   margin: 30px 0 30px 0;
 }
 
+/* following is the navbar section, starting with styling of first header which is in navbar */
 .firstHeader {
   background-image: linear-gradient(60deg, #e41013 15%, gray 30%, #00225a 10%);
   -webkit-background-clip: text;
@@ -164,11 +166,7 @@ span.tab2 {
   padding: 0;
 }
 
-/* #knurling {
-  width: 95%;
-  max-width: 400px;
-} */
-
+/* following is styling for 2nd image on page, which has the 3 powerlifting lifts */
 #three-lifts {
   width: 95%;
   max-width: 400px;
@@ -206,7 +204,7 @@ th {
   margin-top: 15px;
 }
 
-/* the following is styling changes for mobile devices */
+/* the following is styling changes for smaller monitors & mobile devices & tablets */
 @media only screen and (max-width: 1000px) {
 
   .ipf-logo {
@@ -318,8 +316,8 @@ th {
   }
 
   /* following changes width of images while mobile 430px or less */
-  #knurling img {
-    width: 300px;
+  #knurling {
+    width: 240px;
   }
 
   /* following changes navbar font-size in mobile 430px or smaller */
